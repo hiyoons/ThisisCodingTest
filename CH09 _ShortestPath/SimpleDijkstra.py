@@ -39,7 +39,7 @@ def dijkstra(start):
     #시작 노드를 제외하고 전체 n-1개 노드에 대해서 반복
     for i in range(n-1):
         #현재 최단 거리가 가장 짧은 노드를 꺼내서 방문 처리
-        now_short=get_smallest_node() #선형적 탐색색
+        now_short=get_smallest_node() #선형적 탐색
         visited[now_short]=True
         
         #현재 노드와 연결된 노드 확인
